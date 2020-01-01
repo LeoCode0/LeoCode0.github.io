@@ -145,13 +145,13 @@
 
         ipad.addListener(validation)
 
-        burgerButton.addtecListener('click', hideShow);
+        burgerButton.addEventListener('click', hideShow);
 
-        function validation (tec){
-            if (tec.matches){
-                burgerButton.addtecListener('click', hideShow);
+        function validation (event){
+            if (event.matches){
+                burgerButton.addEventListener('click', hideShow);
             }else{
-                burgerButton.removetecListener('click', hideShow);
+                burgerButton.removEventListener('click', hideShow);
             }
         }
 
