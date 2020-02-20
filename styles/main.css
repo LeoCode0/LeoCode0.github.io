@@ -1,0 +1,38 @@
+.portfolio{
+    /* background-color: cadetblue; */
+    max-width: 2000px;
+}
+
+
+/* Carousel */
+.first, .second, .three{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first{
+    background-image: url('../images/platzi_badges.png'); 
+}
+
+.second{
+    background-image: url('../images/cobaep_login.png');
+}
+
+.three{
+    background-image: url('../images/facebook-clone.png');
+    background-position: top;
+}
+
+
+
+.carousel .indicators .indicator-item{
+    background-color: cadetblue;
+}
+
+.carousel.carousel-slider .carousel-item h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+/* Carousel fin */

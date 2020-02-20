@@ -7,20 +7,43 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+    
+    <link rel="stylesheet" href="styles/main.css">
     <title>Leo Espinoza</title>
 </head>
 <body>
     <nav>
         <div class="nav-wrapper container">
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">JavaScript</a></li>
+          <ul class="right">
+            <li><a href="pages/sobremi.html">Sobre mi</a></li>
+            <li><a href="pages/certificaciones.html">Certificaciones</a></li>
+            <li><a href="pages/contacto.html">Contacto</a></li>
           </ul>
         </div>
-      </nav>
+    </nav>
+    <!-- hero -->
+    <main>
+        <h1 class="container valign-wrapper center portfolio">Proyectos recientes</h1>
+        <div class="carousel carousel-wrapper carousel-slider center container">
+            <div class="carousel-fixed-item center">
+            </div>
+            <div class="carousel-item first lighten-2 white-text " href="#one!">
+                <h2>Platzi Badges</h2>
+            </div>
+            <div class="carousel-item second white-text" href="#two!">
+                <h2>Login Cobaep</h2>
+            </div>
+            <div class="carousel-item three white-text" href="#three!">
+                <h2>Facebook clone</h2>
+            </div>
+        </div>        
+    </main>
+    <!-- /Hero -->
+
+      
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="scripts/carousel.js"></script>
+    <script src="server.js"></script>
 </body>
 </html>
