@@ -1,9 +1,3 @@
-.portfolio{
-    /* background-color: cadetblue; */
-    max-width: 2000px;
-}
-
-
 /* Carousel */
 .first, .second, .three{
     background-position: center;
@@ -36,3 +30,7 @@
 }
 
 /* Carousel fin */
+
+/* Cards */
+
+/* /cards */
