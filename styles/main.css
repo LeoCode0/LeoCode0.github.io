@@ -32,5 +32,8 @@
 /* Carousel fin */
 
 /* Cards */
+.card-first, .card-third{
+    height: 304px;
+}
 
 /* /cards */
