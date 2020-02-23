@@ -30,8 +30,8 @@
 /* Carousel fin */
 
 /* Cards */
-.card-first, .card-third{
-    height: 304px;
+.card{
+    min-height: 304px;
 }
 
 /* /cards */
@@ -39,7 +39,11 @@
 /* Footer */
 
 footer li.row{
-    margin: 0;
+    margin: 10px;
+}
+
+footer li.row a{
+    margin-left: 15px;
 }
 
 /* /footer */
