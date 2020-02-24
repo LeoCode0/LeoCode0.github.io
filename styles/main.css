@@ -47,3 +47,26 @@ footer li.row a{
 }
 
 /* /footer */
+
+/* Fin del portafolio */
+
+/* Inico de Sobremi.html */
+
+.personal--description__title h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.personal--description__image{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+
+.personal--description__image img{
+    height: 200px;
+    width: 200px;
+}
+
+/* Final de sobremi */
