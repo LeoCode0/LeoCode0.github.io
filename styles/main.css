@@ -6,15 +6,15 @@
 }
 
 .first{
-    background-image: url('../images/platzi_badges.png'); 
+    background-image: url('/images/platzi_badges.png'); 
 }
 
 .second{
-    background-image: url('../images/cobaep_login.png');
+    background-image: url('/images/cobaep_login.png');
 }
 
 .three{
-    background-image: url('../images/facebook-clone.png');
+    background-image: url('/images/facebook-clone.png');
     background-position: top;
 }
 
