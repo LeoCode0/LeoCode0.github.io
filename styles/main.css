@@ -78,3 +78,16 @@ footer li.row a{
 }
 
 /* Final de sobremi */
+
+/* Contacto */
+
+.contacto--card{
+    display: flex;
+    height: 100px;
+}
+
+.contacto--card img{
+    height: 80px;
+}
+
+/* /Contacto */
