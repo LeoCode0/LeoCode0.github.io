@@ -130,10 +130,12 @@ footer li.row a{
     height: 120px;
 }
 
+
+
 .certificates--badges__collection{
-    margin-right: 10px;
+    margin-left: 8px;
     height: 311px;
-    width: 10px;
+    width: 200px;
 }
 
 .certificates--badges__collection-li{
@@ -155,6 +157,25 @@ footer li.row a{
 
 .certificates{
     overflow-x: hidden;
+}
+
+@media screen and (max-width: 600px){
+    .certificates{
+        width: 99vw;
+    }
+    .certificates--container{
+        width: 230px;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    .collection.col.certificates--badges__collection{
+        margin-left: 17%;
+    }
+    .certificates--badges__titles{
+        margin: 0;
+        padding: 0;
+    }
+
 }
 
 /* /Certificaciones  */
