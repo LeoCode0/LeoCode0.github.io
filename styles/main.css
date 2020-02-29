@@ -132,22 +132,29 @@ footer li.row a{
 
 .certificates--badges__collection{
     margin-right: 10px;
-    width: 200px;
     height: 311px;
+    width: 10px;
 }
 
 .certificates--badges__collection-li{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .certificates--badges__collection-li img{
     height: 140px;
+    width: 140px;
     margin-bottom: 20px;
 }
 
 .title_large{
     font-size: 20px;
+}
+
+.certificates{
+    overflow-x: hidden;
 }
 
 /* /Certificaciones  */
