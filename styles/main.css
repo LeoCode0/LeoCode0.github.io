@@ -81,12 +81,13 @@ footer li.row a{
 
 /* Contacto */
 
-.contacto{
-    margin-top: 30px;
-}
-
 .contacto--card.twitter, .contacto--card.github{
     margin-right: 30px;
+}
+
+.contacto--card.twitter, .contacto--card.gmail{
+    margin-top: 30px;
+
 }
 
 .contacto--card.github, .contacto--card.linkedin{
