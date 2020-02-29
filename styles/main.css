@@ -133,6 +133,7 @@ footer li.row a{
 .certificates--badges__collection{
     margin-right: 10px;
     width: 200px;
+    height: 311px;
 }
 
 .certificates--badges__collection-li{
@@ -145,5 +146,8 @@ footer li.row a{
     margin-bottom: 20px;
 }
 
+.title_large{
+    font-size: 20px;
+}
 
 /* /Certificaciones  */
