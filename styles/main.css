@@ -74,7 +74,6 @@ footer li.row a{
 
 .educacion--tecnologias__tec{
     width: 200px;
-    margin: 20px;
 }
 
 /* Final de sobremi */
@@ -175,7 +174,9 @@ footer li.row a{
         margin: 0;
         padding: 0;
     }
-
+    .educacion--tecnologias__tec{
+        max-width: 160px;
+    }
 }
 
 /* /Certificaciones  */
